@@ -1,0 +1,4 @@
+To score domains in google sheet, change person email to the below:
+
+function mk_find_person(email, api_key, use_beta) {
+  url = 'https://api.madkudu.com/v1/companies?domain=' + email;

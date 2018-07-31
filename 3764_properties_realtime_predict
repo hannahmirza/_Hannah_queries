@@ -1,0 +1,25 @@
+
+  "properties": {
+	"custom_domain": null,
+	"ip_country_code": null,
+	"first_source": null,
+	"source": "inbound - Shopify Signup",
+	"hs_analytics_source": "OFFLINE",
+	"hs_analytics_source_data_1": "SALES",
+	"hs_analytics_source_data_2": "SIDEKICK",
+	"a_hs_lead_status": "IN_PROGRESS"
+  },
+
+
+
+  "properties": {
+    "trial_outlet_type__c": null,
+    "vertical_industry__c": null,
+    "partner__c": "false",
+    "advisor__c": "false",
+    "enquiry_topic__c": null,
+    "phone": "1234354725",
+    "country": null,
+    "company": null
+  },
+

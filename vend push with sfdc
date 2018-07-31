@@ -1,0 +1,235 @@
+[
+  {
+    "integrations": {
+      "marketo": "mk_customer_fit__c",
+      "salesforce": "mk_customer_fit__c",
+      "all": false
+    },
+    "batch": true,
+    "realtime": true,
+    "id": "mk_customer_fit"
+  },
+  {
+    "id": "mk_likelihood_to_buy_segment",
+    "integrations": {
+      "all": false,
+      "marketo": "mk_likelihood_to_buy__c",
+      "salesforce": "mk_likelihood_to_buy__c"
+    }
+  },
+  {
+    "integrations": {
+      "marketo": "mk_likelihood_to_buy_score__c",
+      "salesforce": "mk_likelihood_to_buy_score__c",
+      "all": false
+    },
+    "id": "mk_likelihood_to_buy_score"
+  },
+  {
+    "integrations": {
+      "marketo": "mk_first_name__c",
+      "salesforce": "mk_first_name__c",
+      "all": false
+    },
+    "batch": true,
+    "realtime": true,
+    "id": "mk_first_name"
+  },
+  {
+    "integrations": {
+      "marketo": "mk_last_name__c",
+      "salesforce": "mk_last_name__c",
+      "all": false
+    },
+    "batch": true,
+    "realtime": true,
+    "id": "mk_last_name"
+  },
+  {
+    "integrations": {
+      "all": false,
+      "marketo": "mk_job_title__c",
+      "salesforce": "mk_job_title__c"
+    },
+    "batch": true,
+    "realtime": true,
+    "id": "mk_job_title"
+  },
+  {
+    "integrations": {
+      "marketo": "mk_country__c",
+      "salesforce": "mk_country__c",
+      "all": false
+    },
+    "batch": true,
+    "realtime": true,
+    "id": "mk_country"
+  },
+  {
+    "batch": true,
+    "realtime": true,
+    "id": "mk_company_employees",
+    "integrations": {
+      "marketo": "mk_company_employees__c",
+      "salesforce": "mk_company_employees__c",
+      "all": false
+    }
+  },
+  {
+    "batch": true,
+    "realtime": true,
+    "id": "mk_company_industry",
+    "integrations": {
+      "marketo": "mk_industry__c",
+      "salesforce": "mk_industry__c",
+      "all": false
+    }
+  },
+  {
+    "realtime": true,
+    "id": "mk_company_type",
+    "integrations": {
+      "marketo": "mk_company_type__c",
+      "salesforce": "mk_company_type__c",
+      "all": false
+    },
+    "batch": true
+  },
+  {
+    "integrations": {
+      "marketo": "mk_company_domain__c",
+      "salesforce": "mk_company_domain__c",
+      "all": false
+    },
+    "batch": true,
+    "realtime": true,
+    "id": "mk_company_domain"
+  },
+  {
+    "id": "mk_company_alexa_us",
+    "integrations": {
+      "marketo": "mk_company_alexa_us__c",
+      "salesforce": "mk_company_alexa_us__c",
+      "all": false
+    },
+    "batch": true,
+    "realtime": true
+  },
+  {
+    "type": "BIGINT",
+    "name": "mk_count_of_account_view_activation_page",
+    "integrations": {
+      "marketo": "mk_count_of_account_view_activation_page__c",
+      "salesforce": "mk_count_of_account_view_activation_page__c",
+      "all": false
+    }
+  },
+  {
+    "name": "mk_count_of_view_dashboard_30d__c",
+    "integrations": {
+      "marketo": "mk_count_of_view_dashboard_30d__c",
+      "salesforce": "mk_count_of_view_dashboard_30d__c",
+      "all": false
+    },
+    "type": "BIGINT"
+  },
+  {
+    "integrations": {
+      "marketo": "mk_count_of_web_register_sync_30d__c",
+      "salesforce": "mk_count_of_web_register_sync_30d__c",
+      "all": false
+    },
+    "type": "BIGINT",
+    "name": "mk_count_of_web_register_sync_30d__c"
+  },
+  {
+    "integrations": {
+      "marketo": "mk_has_done_setup_add_user_30d__c",
+      "salesforce": "mk_has_done_setup_add_user_30d__c",
+      "all": false
+    },
+    "type": "BIGINT",
+    "name": "mk_has_done_setup_add_user_30d__c"
+  },
+  {
+    "integrations": {
+      "marketo": "mk_has_done_edit_receipt_template_30d__c",
+      "salesforce": "mk_has_done_edit_receipt_template_30d__c",
+      "all": false
+    },
+    "type": "BIGINT",
+    "name": "mk_has_done_edit_receipt_template_30d__c"
+  },
+  {
+    "integrations": {
+      "all": false,
+      "marketo": "mk_count_of_sell_sale_created_30d__c",
+      "salesforce": "mk_count_of_sell_sale_created_30d__c"
+    },
+    "type": "BIGINT",
+    "name": "mk_count_of_sell_sale_created_30d__c"
+  },
+  {
+    "type": "BIGINT",
+    "name": "mk_count_of_edit_product_30d__c",
+    "integrations": {
+      "marketo": "mk_count_of_edit_product_30d__c",
+      "salesforce": "mk_count_of_edit_product_30d__c",
+      "all": false
+    }
+  },
+  {
+    "name": "mk_count_of_add_product_30d__c",
+    "integrations": {
+      "marketo": "mk_count_of_add_product_30d__c",
+      "salesforce": "mk_count_of_add_product_30d__c",
+      "all": false
+    },
+    "type": "BIGINT"
+  },
+  {
+    "integrations": {
+      "all": false,
+      "marketo": "mk_has_done_add_register_30d__c",
+      "salesforce": "mk_has_done_add_register_30d__c"
+    },
+    "type": "BOOLEAN",
+    "name": "mk_has_done_add_register_30d__c"
+  },
+  {
+    "integrations": {
+      "marketo": "mk_has_done_add_payment_type_30d__c",
+      "salesforce": "mk_has_done_add_payment_type_30d__c",
+      "all": false
+    },
+    "type": "BOOLEAN",
+    "name": "mk_has_done_add_payment_type_30d__c"
+  },
+  {
+    "type": "VARCHAR(256)",
+    "name": "mk_predicted_plan",
+    "integrations": {
+      "marketo": "mk_predicted_plan__c",
+      "salesforce": "mk_predicted_plan__c",
+      "all": false
+    }
+  },
+  {
+    "integrations": {
+      "all": false,
+      "marketo": "mk_predicted_plan_reason__c",
+      "salesforce": "mk_predicted_plan_reason__c"
+    },
+    "type": "VARCHAR(256)",
+    "name": "mk_predicted_plan_reason"
+  },
+  {
+    "integrations": {
+      "marketo": "mk_lead_potential__c",
+      "salesforce": "mk_lead_potential__c",
+      "all": false
+    },
+    "type": "FLOAT",
+    "name": "mk_lead_potential"
+  }
+]

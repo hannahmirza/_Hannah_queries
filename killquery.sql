@@ -1,0 +1,9 @@
+SELECT
+  *
+FROM
+  STV_RECENTS
+WHERE
+  status = 'Running'
+;
+
+SELECT PG_CANCEL_BACKEND(pid)
