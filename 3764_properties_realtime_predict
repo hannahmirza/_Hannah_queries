@@ -23,3 +23,6 @@
     "company": null
   },
 
+
+-- 3764 how to extract export_contacts_log value
+JSON_EXTRACT_PATH_TEXT(JSON_EXTRACT_ARRAY_ELEMENT_TEXT(JSON_EXTRACT_PATH_TEXT(payload, 'properties'), 0), 'value')
